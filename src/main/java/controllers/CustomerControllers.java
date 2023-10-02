@@ -13,7 +13,7 @@ import services.SlotServices;
 import services.TeacherServices;
 import java.util.List;
 
-@Path("customer")
+@Path("api/customer")
 @Produces({"application/json", "application/xml"})
 public class CustomerControllers {
 

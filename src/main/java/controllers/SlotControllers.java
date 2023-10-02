@@ -12,7 +12,7 @@ import services.SlotServices;
 import services.TeacherServices;
 import java.util.List;
 
-@Path("slot")
+@Path("api/slot")
 @Produces({"application/json", "application/xml"})
 public class SlotControllers {
     private EntityManager manager = EntityManagerHelper.getEntityManager();;
@@ -26,7 +26,7 @@ public class SlotControllers {
         this.teacherServices = new TeacherServices();
     }
 
-        @GET
+    @GET
     @Path("/")
     public List<SlotDTO> getSlots()  {
         return slotServices.getSlots();
