@@ -20,7 +20,7 @@ J'ai intégré deux relations bi directionnelles (ManyToOne Et OneToMany)
 
 # Pour lancer le projet, 
 
-il faut demarrer le RestServer, situé dans src/main/java
+Il faut démarrer le RestServer, situé dans src/main/java
 
 Le projet fonctionne avec mySQL (lancé avec docker).
 
@@ -28,10 +28,10 @@ L'application tourne sur le port 8080.
 
 Les urls de requete sont visibles au niveau des controllers. Par exemple http://localhost:8080/api/customer/XXX retournera le customer possedant l'id XXX.
 
-Le projet est surtucturé en 3 couches : DAO, Services, Controllers.
+Le projet est structuré en 3 couches : DAO, Services, Controllers.
 Cette structure sera gardée pour les prochains TPs.
 
-Les controllers recoivent la requete http, l'information circule jusqu'aux DAO en passant par les services (sans traitement majeur). 
+Les controllers reçoivent la requête http, l'information circule jusqu'aux DAO en passant par les services (sans traitement majeur). 
 
 Les DAO revoient l'information extraite de la BDD aux services. Les services effectuent des traitements sur l'information (changement de structure par exemple, avec les DTO), cette nouvelle information est alors envoyée aux controllers qui se charge de créer la reponse http.
 
