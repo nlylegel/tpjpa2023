@@ -14,9 +14,9 @@ Une classe Slot qui correspond à un créneau.
 
 Rapidement, l'idée est d'avoir un customer qui peut réserver un slot. Ce slot est préalablement créé par un teacher.
 
-Les classes d'objet sont definies comme des entités grace aux annotations Jakarta.
+Les classes d'objet sont définies comme des entités grace aux annotations Jakarta.
 
-J'ai intégré deux relations bi directionnelles (ManyToOne Et OneToMany)
+J'ai intégré deux relations bidirectionnelles (ManyToOne Et OneToMany)
 
 # Pour lancer le projet, 
 
