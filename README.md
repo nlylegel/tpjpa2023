@@ -1,8 +1,8 @@
 # Template de projet pour le TP JPA 2021 UniR
 
-Pour cette serie de TP j'ai choisi de garder le modele d'un Doctolib pour enseignant.
+Pour cette série de TP j'ai choisi de garder le modèle d'un Doctolib pour enseignant.
 
-J'ai fusionné le TP1 et TP2 car je les ai jugés complémentaires.
+**J'ai fusionné le TP1 et TP2 car je les ai jugés complémentaires.**
 
 # J'ai suivi la structure de données suivante : 
 
@@ -12,7 +12,7 @@ Une classe Teacher, représentant le modèle des enseignants.
 
 Une classe Slot qui correspond à un créneau. 
 
-Rapidement, l'idee est d'avoir un customer qui peut reserver un slot. Ce slot est préalablement créé par un teacher.
+Rapidement, l'idée est d'avoir un customer qui peut réserver un slot. Ce slot est préalablement créé par un teacher.
 
 Les classes d'objet sont definies comme des entités grace aux annotations Jakarta.
 
@@ -26,7 +26,7 @@ Le projet fonctionne avec mySQL (lancé avec docker).
 
 L'application tourne sur le port 8080.
 
-Les urls de requete sont visibles au niveau des controllers. Par exemple http://localhost:8080/api/customer/XXX retournera le customer possedant l'id XXX.
+Les urls de requètes sont visibles au niveau des controllers. Par exemple http://localhost:8080/api/customer/XXX retournera le customer possedant l'id XXX.
 
 Le projet est structuré en 3 couches : DAO, Services, Controllers.
 Cette structure sera gardée pour les prochains TPs.
